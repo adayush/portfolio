@@ -4,6 +4,7 @@ import Projects from './Components/Projects/Projects'
 import About from './Components/About/About'
 import TechStack from './Components/TechStack/TechStack'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <TechStack />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -16,7 +16,7 @@ const ListProjects = () => {
             <span><strong>Tech stack: </strong>{project.techstack}</span>
             <div>
               <a href={project.live} target="_blank" rel="noreferrer"><img src={require("../../assets/images/link.png")} alt="link icon" />Live Preview</a>
-              <a href={project.github} target="_blank" rel="noreferrer"><img src={require("../../assets/images/github.png")} alt="github icon" />View Code</a>
+              <a href={project.github} target="_blank" rel="noreferrer"><img src={require("../../assets/images/github2.png")} alt="github icon" />View Code</a>
             </div>
           </div>
         </div>

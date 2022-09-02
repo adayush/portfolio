@@ -23,7 +23,7 @@ const TechStack = () => {
   return (
     <div className={`${style.section} section`}>
       <div className={style.container}>
-        <h3>Tools and technologies that I use</h3>
+        <h3>Tools and technologies I've used</h3>
         <br />
         <p>Lorem ipsum dolors set amit lorem ipsdsffm dolor set oosdfem ipsum dolor setsd amit</p>
         <div className={style.techstack}>

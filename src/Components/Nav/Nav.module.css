@@ -1,16 +1,21 @@
 .header {
+    background: #23272a;
+}
+.section {
+    margin: auto;
+    padding: 0 2rem;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #23272a;
 }
 
 .link_container {
     display: flex;
+    gap: 1rem 3rem;
 }
 
 .link {
-    padding: 1rem 1.5rem;
     color: white;
     text-decoration: none;
 }

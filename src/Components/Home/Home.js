@@ -18,7 +18,7 @@ const Home = () => {
           <button><img src={require("../../assets/images/mail.png")} alt="mail icon" /> adayush0@gmail.com</button>
           <Socialbtns />
         </div>
-        <div className={style.col}>
+        <div className={style.col2}>
           <img src={require('../../assets/images/man_using_laptop.png')} alt="Man using laptop" />
         </div>
       </div>
