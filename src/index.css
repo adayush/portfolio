@@ -9,14 +9,25 @@ body {
   height: 100%;
   min-height: 100vh;
   color: white;
-  background: linear-gradient(180deg, #23272a, #2f3942);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.main {
-  min-height: calc(100vh - 80px);
-  width: 90%;
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 3rem 2rem;
   margin: auto;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }

@@ -1,24 +1,23 @@
 import style from './Nav.module.css'
-import { Link, NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <header className={`${style.header} ${style.section}`}>
+    <header id="Home" className={`${style.header} section`}>
       <div className={style.logo}>
-        <Link to='/' className={style.link}>
-          HOME
-        </Link>
+        <div className={style.link}>
+          <a href='#Home'>HOME</a>
+        </div>
       </div>
-      <div className={style.navlink_container}>
-        <NavLink to='/projects' className={style.link}>
-          PROJECTS
-        </NavLink>
-        <NavLink to='/about' className={style.link}>
-          ABOUT ME
-        </NavLink>
-        <NavLink to='/contact' className={style.link}>
-          CONTACT
-        </NavLink>
+      <div className={style.link_container}>
+        <div className={style.link}>
+          <a href='#Projects'>PROJECTS</a>
+        </div>
+        <div className={style.link}>
+          <a href='#About'>ABOUT ME</a>
+        </div>
+        <div className={style.link}>
+          <a href='#Contact'>CONTACT</a>
+        </div>
       </div>
     </header>
   )

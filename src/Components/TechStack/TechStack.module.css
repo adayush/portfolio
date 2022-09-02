@@ -1,0 +1,44 @@
+.section {
+    background: linear-gradient(180deg, #2f3942, #23272a);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.techstack {
+    margin: 3rem 2rem;
+
+}
+
+.domain {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2rem;
+}
+
+.tiles {
+    /* display:inline-flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 100px));
+    gap: 0.5rem;
+    text-align: center;
+}
+.tile {
+    min-width: 80px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: #30393f;
+    margin: auto;
+}
+.tile p {
+    font-size: 0.9rem;
+}
+.tile img {
+    max-width: 40px;
+    border-radius: 5px;
+    height: auto;
+}

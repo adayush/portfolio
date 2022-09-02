@@ -1,0 +1,25 @@
+.section {
+    background: linear-gradient(180deg, #23272a, #2f3942);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.col {
+    text-align: center;
+}
+.col:first-of-type {
+    width: 50%;
+}
+.col img {
+    transform: rotate(-20deg);
+    width: 80%;
+}

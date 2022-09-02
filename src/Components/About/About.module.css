@@ -1,0 +1,43 @@
+.section {
+    background: linear-gradient(180deg, #23272a, #2f3942);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.colcontainer {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+}
+.col:nth-of-type(2) {
+    text-align: center;
+}
+.col div {
+    padding: 1rem;
+}
+
+.col img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.col button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 2px;
+    background: #23272a;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.col button:hover {
+    color: #F3D38C;
+    font-weight: 600;
+    transform: scale(1.05);
+}
