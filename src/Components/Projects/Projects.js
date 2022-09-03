@@ -29,9 +29,9 @@ const Projects = () => {
   return (
     <div id="Projects" className={`${style.section} section`}>
       <div className={style.container}>
-        <h2>My Projects</h2>
+        <h2>👨🏻‍💻 My Projects</h2>
         <br />
-        <p>Lorem ipsum dolor set amit</p>
+        <p>A few of the projects I've worked on</p>
         <ListProjects />
         <div className={style.swipelabel}>
           <p>👉 Swipe to see more!</p>

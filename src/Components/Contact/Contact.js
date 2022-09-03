@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div id="Contact" className={`${style.section} section`}>
       <div className={style.container}>
-        <h2>Contact Me</h2>
+        <h2>💬 Contact Me</h2>
         <br />
-        <p>Lorem ipsum dolors set amit lorem ipsdsffm dolor set oosdfem ipsum dolor setsd amit</p>
+        <p>Hit me up! I'd love to have a chat or help you with something tricky 🤓</p>
         <div className={style.container2}>
           <div className={style.col}>
             <iframe

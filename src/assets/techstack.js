@@ -59,6 +59,10 @@ export const techstack = {
         {
             icon: "photoshop.png",
             name: "PhotoShop"
+        },
+        {
+            icon: "wordpress.png",
+            name: "WordPress"
         }
     ]
 }

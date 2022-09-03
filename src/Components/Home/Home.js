@@ -13,7 +13,7 @@ const Home = () => {
           <p>
             I'm a final-year undergrad who's passionate about tech.
             Skilled in React.js, Python, ML, Data Structures and SQL.<br />
-            Also No-code freelancer on the side (Notion, WordPress).
+            Also a no-code freelancer on the side (Notion, WordPress).
           </p>
           <button><img src={require("../../assets/images/mail.png")} alt="mail icon" /> adayush0@gmail.com</button>
           <Socialbtns />
