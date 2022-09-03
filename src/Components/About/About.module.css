@@ -46,9 +46,10 @@
 
 .col button {
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
     background: #23272a;
     color: white;
     transition: all .2s ease-in-out;
@@ -57,4 +58,23 @@
     color: #F3D38C;
     font-weight: 600;
     transform: scale(1.05);
+}
+
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
 }

@@ -6,7 +6,9 @@ const Nav = () => {
       <div className={style.section}>
         <div className={style.logo}>
           <div className={style.link}>
-            <a href='#Home'>HOME</a>
+            <a href='#Home'>
+              <img src={require('../../assets/images/ayushwink.png')} alt='Ayush winking' />
+            </a>
           </div>
         </div>
         <div className={style.link_container}>
