@@ -20,6 +20,8 @@
     gap: 2rem;
     overflow-x: scroll;
     overflow-y: hidden;
+    border-radius: 10px;
+    scroll-snap-type: x mandatory;
 }
 
 .project {
@@ -28,6 +30,7 @@
     border-radius: 15px;
     background: #30393f;
     overflow: hidden;
+    scroll-snap-align: start;
 }
 .project img {
     width: 100%;
@@ -64,4 +67,13 @@
 
 .swipelabel {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .projects {
+        margin: 2rem 0;
+    }
 }

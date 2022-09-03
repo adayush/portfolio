@@ -20,6 +20,9 @@
 }
 
 @media screen and (max-width: 550px) {
+    .container {
+        width: 95%;
+    }
     .domain {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0.8fr;

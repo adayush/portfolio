@@ -23,3 +23,9 @@
     color: #F3D38C;
     font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: none;
+    }
+}
