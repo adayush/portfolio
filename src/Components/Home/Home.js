@@ -15,7 +15,7 @@ const Home = () => {
             Skilled in React.js, Python, ML, Data Structures and SQL.<br />
             Also a no-code freelancer on the side (Notion, WordPress).
           </p>
-          <button><img src={require("../../assets/images/mail.png")} alt="mail icon" /> adayush0@gmail.com</button>
+          <a href='mailto:adayush0@gmail.com' target="_blank" rel="noreferrer"><button><img src={require("../../assets/images/mail.png")} alt="mail icon" /> adayush0@gmail.com</button></a>
           <Socialbtns />
         </div>
         <div className={style.col2}>

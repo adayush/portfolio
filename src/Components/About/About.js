@@ -18,7 +18,7 @@ const About = () => {
             <br />
             <p><i>Always looking for opportunities to learn and build interesting stuff.</i></p>
             <br />
-            <button>📄 My resume</button>
+            <a href='https://drive.google.com/file/d/12sAqtcigRGFRmw31tdFWUqaWR1687NJ3/view?usp=sharing' target="_blank" rel="noreferrer"><button>📄 My resume</button></a>
           </div>
           <div className={style.col}>
             <img src={require("../../assets/images/ayush.png")} alt="Ayush Dhingra" />

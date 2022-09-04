@@ -22,21 +22,5 @@ export const projects = [
     techstack: "HTML, CSS, JS, Keras, TensorFlow",
     live: "https://adayush.github.io/MNIST_Classifier/",
     github: "https://github.com/adayush/MNIST_Classifier"
-  },
-  {
-    name: "Sample Project",
-    cover: "sumedha.png",
-    description: "This is a sample project description which is a great sample.",
-    techstack: "HTML, JS, CSS",
-    live: "/",
-    github: "/"
-  },
-  {
-    name: "Sample Project",
-    cover: "sumedha.png",
-    description: "This is a sample project description which is a great sample.",
-    techstack: "HTML, JS, CSS",
-    live: "/",
-    github: "/"
   }
 ]
