@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: "Kanban Board",
+    cover: "react-kanban.png",
+    description: "A Kanban board inspired from Notion's UI.",
+    techstack: "React.js, React-beautiful-dnd",
+    live: "https://react-kanban-adayush.vercel.app",
+    github: "https://github.com/adayush/react-kanban"
+  },
+  {
     name: "Sumedha - SIH 2022",
     cover: "sumedha.png",
     description: "A PWA app to guide holistic development in children along with AI-guided Yoga",
