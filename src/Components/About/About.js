@@ -7,7 +7,7 @@ const About = () => {
         <h2>🙋🏻‍♂️ About Me</h2>
         <div className={style.colcontainer}>
           <div className={style.col}>
-            <h4>Hello again! <span className={style.wave}>👋🏻</span><br />My name is Ayush Dhingra</h4>
+            <h3>Hello again! <span className={style.wave}>👋🏻</span><br />My name is Ayush Dhingra</h3>
             <br />
             <p>Currently a final-year undergrad at Rajasthan Technical University. I love to tinker with code.</p>
             <br />
